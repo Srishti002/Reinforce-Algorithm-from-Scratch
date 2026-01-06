@@ -40,10 +40,17 @@
 
   - Learning rate= 0.001
   - gamma = 0.99
-  - Number of episodes=1000
+  - Number of training episodes=1000
   - Results:
     
-    <img width="1188" height="490" alt="image" src="https://github.com/user-attachments/assets/bb003f7f-186f-4188-a2fc-b28e742269e5" />
+    - Training result:
+      
+      <img width="1188" height="490" alt="image" src="https://github.com/user-attachments/assets/bb003f7f-186f-4188-a2fc-b28e742269e5" />
+      
+    - Testing for 5 episdes:
+
+      <img width="480" height="133" alt="image" src="https://github.com/user-attachments/assets/85ae1c00-5c0a-4852-a5b1-171e5aa897ef" />
+
 
         
       
