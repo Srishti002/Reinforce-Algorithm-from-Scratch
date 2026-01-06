@@ -24,4 +24,30 @@
     b(st)= baseline for variance reduction. Common choices for baseline moving average that is running average of past returns, mean reward, etc.
     
   - Update θn+1 = θn + α*Gradient
+ 
+  ## Training Details:
+  - Environment : CartPole-v0
+  - Policy Network:
+    - Number of hidden layers: 1
+    - Number of neurons: 4
+    - Input dimension: 1,4
+    - Activation function: ReLU
+    - Softmax at the output layer
+    - Number of actions: 2
+ 
+      <img width="479" height="597" alt="image" src="https://github.com/user-attachments/assets/2961ed6e-1c1c-4871-8822-16760c9b3aa6" />
+
+
+  - Learning rate= 0.001
+  - gamma = 0.99
+  - Number of episodes=1000
+  - Results:
+    
+    <img width="1188" height="490" alt="image" src="https://github.com/user-attachments/assets/bb003f7f-186f-4188-a2fc-b28e742269e5" />
+
+        
+      
+      
+    
+  
   
